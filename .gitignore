@@ -2,12 +2,19 @@
 .env
 .DS_Store
 airflow_settings.yaml
+
+## Ignore all pycache files
 __pycache__/
+**/__pycache__/
+
 astro
 .venv
 airflow-webserver.pid
 webserver_config.py
 airflow.cfg
 airflow.db
-Secrets
+
+## Ignore the secrets folder
+Secrets/
+
 
